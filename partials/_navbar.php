@@ -16,10 +16,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/php_tutorials/33/welcome.php">Home</a>
+                    <a class="nav-link active" aria-current="page" href="welcome.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/php_tutorials/33/about.php">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -31,13 +31,13 @@
 //                             $sql = "SELECT `category_id`, `category_title` FROM `category` limit 6; ";
 //                             $result = mysqli_query($conn, $sql);
 //                             while($row = mysqli_fetch_assoc($result)){
-//                                 echo '<li><a class="dropdown-item" href="/php_tutorials/33/threadlist.php?cat_id='. $row["category_id"] .'">'. $row["category_title"] .'</a></li>';
+//                                 echo '<li><a class="dropdown-item" href="threadlist.php?cat_id='. $row["category_id"] .'">'. $row["category_title"] .'</a></li>';
 //                             }
                         ?>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/php_tutorials/33/contact.php">Contact</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
             <form class="d-flex" action="search.php" method="get">
