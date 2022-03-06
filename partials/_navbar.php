@@ -75,6 +75,6 @@
             </div>';
         }
     }
-//     include '_loginModal.php';
-//     include '_signupModal.php';
+    include '_loginModal.php';
+    include '_signupModal.php';
 ?>
