@@ -6,7 +6,7 @@
     }
 //     require '_dbconnect.php';
 ?>
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">CodeChat</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -26,7 +26,7 @@
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Categories
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <?php
 //                             $sql = "SELECT `category_id`, `category_title` FROM `category` limit 6; ";
 //                             $result = mysqli_query($conn, $sql);
@@ -34,7 +34,7 @@
 //                                 echo '<li><a class="dropdown-item" href="/php_tutorials/33/threadlist.php?cat_id='. $row["category_id"] .'">'. $row["category_title"] .'</a></li>';
 //                             }
                         ?>
-<!--                     </ul>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/php_tutorials/33/contact.php">Contact</a>
@@ -43,7 +43,7 @@
             <form class="d-flex" action="search.php" method="get">
                 <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-success mx-1" type="submit">Search</button>
-            </form> -->
+            </form>
             <?php
 //                 if(!$loggedin){
 //                     echo '<button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>';
@@ -52,10 +52,10 @@
 //                     echo '<a href="/php_tutorials/33/partials/_logout.php" class="btn btn-outline-success mx-1 my-1">Logout</a>';
 //                 }
             ?>
-<!--             <button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+            <button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
         </div>
     </div>
-</nav> -->
+</nav>
 
 <!--  && (isset($is_success)) -->
 <?php
