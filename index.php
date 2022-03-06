@@ -44,25 +44,25 @@
         <h2 class="text-center my-3">CodeChat Categories</h2>
         <div class="row">
             <?php    
-                $sql = "SELECT * FROM `category`;" ;
-                $result = mysqli_query($conn, $sql);
+//                 $sql = "SELECT * FROM `category`;" ;
+//                 $result = mysqli_query($conn, $sql);
 
-                while($row = mysqli_fetch_assoc($result)){
-                    // no. of cards in 1 row = 12/n where n is col-md-n.
-                    $cat_tit = $row["category_title"];
-                    $cat_desc = $row["category_description"];
-                    $cat_id = $row["category_id"];
-                    echo '<div class="col-md-4">
-                        <div class="card my-2" style="width: 15rem;">
-                            <img src="https://picsum.photos/200/300" style="width: 15rem; height: 12rem;" class="card-img-top" alt="Related image">
-                            <div class="card-body">
-                            <h5 class="card-title">'. $cat_tit .'</h5>
-                            <p class="card-text">'. substr($cat_desc,0,100) .'...</p>
-                            <a href="threadlist.php?cat_id='.$cat_id.'" class="btn btn-primary">View Threads</a>
-                            </div>
-                        </div>
-                    </div>';
-                }
+//                 while($row = mysqli_fetch_assoc($result)){
+//                     // no. of cards in 1 row = 12/n where n is col-md-n.
+//                     $cat_tit = $row["category_title"];
+//                     $cat_desc = $row["category_description"];
+//                     $cat_id = $row["category_id"];
+//                     echo '<div class="col-md-4">
+//                         <div class="card my-2" style="width: 15rem;">
+//                             <img src="https://picsum.photos/200/300" style="width: 15rem; height: 12rem;" class="card-img-top" alt="Related image">
+//                             <div class="card-body">
+//                             <h5 class="card-title">'. $cat_tit .'</h5>
+//                             <p class="card-text">'. substr($cat_desc,0,100) .'...</p>
+//                             <a href="threadlist.php?cat_id='.$cat_id.'" class="btn btn-primary">View Threads</a>
+//                             </div>
+//                         </div>
+//                     </div>';
+//                 }
             ?>
         </div>
     </div>
