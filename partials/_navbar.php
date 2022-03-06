@@ -45,12 +45,12 @@
                 <button class="btn btn-success mx-1" type="submit">Search</button>
             </form>
             <?php
-//                 if(!$loggedin){
-//                     echo '<button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>';
-//                 }
-//                 else{
-//                     echo '<a href="/php_tutorials/33/partials/_logout.php" class="btn btn-outline-success mx-1 my-1">Logout</a>';
-//                 }
+                if(!$loggedin){
+                    echo '<button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>';
+                }
+                else{
+                    echo '<a href="/php_tutorials/33/partials/_logout.php" class="btn btn-outline-success mx-1 my-1">Logout</a>';
+                }
             ?>
             <button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
         </div>
@@ -59,22 +59,22 @@
 
 <!--  && (isset($is_success)) -->
 <?php
-//     if( isset($_GET['success']) ){
-//         // echo var_dump($_GET['success']);
-//         // echo var_dump($_GET['error']);
-//         if($_GET['success']){
-//             echo '<div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
-//             <strong>Success!</strong> '. $_GET['error'] .'
-//             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-//             </div>';
-//         }
-//         else{
-//             echo '<div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
-//             <strong>Error!</strong> '. $_GET['error'] .'
-//             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-//             </div>';
-//         }
-//     }
+    if( isset($_GET['success']) ){
+        // echo var_dump($_GET['success']);
+        // echo var_dump($_GET['error']);
+        if($_GET['success']){
+            echo '<div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
+            <strong>Success!</strong> '. $_GET['error'] .'
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>';
+        }
+        else{
+            echo '<div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
+            <strong>Error!</strong> '. $_GET['error'] .'
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>';
+        }
+    }
 //     include '_loginModal.php';
 //     include '_signupModal.php';
 ?>
