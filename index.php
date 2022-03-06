@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    hello india
+    <?php echo 'hello india'; ?>
     
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<!--     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Best-Programming-Languages-to-Start-Learning-Today.jpg" style= "height: 60vh" class="d-block w-100" alt="...">
@@ -38,7 +38,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div> -->
 </body>
 
 </html>
