@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="welcome.php">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">About</a>
@@ -49,7 +49,7 @@
                     echo '<button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>';
                 }
                 else{
-                    echo '<a href="/php_tutorials/33/partials/_logout.php" class="btn btn-outline-success mx-1 my-1">Logout</a>';
+                    echo '<a href="partials/_logout.php" class="btn btn-outline-success mx-1 my-1">Logout</a>';
                 }
             ?>
             <button type="button" class="btn btn-outline-success mx-1 my-1" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
