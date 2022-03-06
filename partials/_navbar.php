@@ -1,9 +1,9 @@
 <?php
-    $loggedin = false;
-    session_start();
-    if(isset($_SESSION['loggedin']) && ($_SESSION['loggedin'])){
-        $loggedin = true;
-    }
+//     $loggedin = false;
+//     session_start();
+//     if(isset($_SESSION['loggedin']) && ($_SESSION['loggedin'])){
+//         $loggedin = true;
+//     }
     require '_dbconnect.php';
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
