@@ -15,7 +15,7 @@
 
 <body>
     hello india
-
+    <?php include 'partials/_navbar.php'; ?>
 </body>
 
 </html>
