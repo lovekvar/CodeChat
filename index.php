@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <?php echo 'hello india'; ?>
+    <?php echo 'hello india'; 
+    include 'partials/_navbar.php';?>
     
 <!--     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
