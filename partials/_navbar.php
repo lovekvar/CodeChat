@@ -4,7 +4,7 @@
     if(isset($_SESSION['loggedin']) && ($_SESSION['loggedin'])){
         $loggedin = true;
     }
-    include '_dbconnect.php';
+    require '_dbconnect.php';
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -28,11 +28,11 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <?php
-                            $sql = "SELECT `category_id`, `category_title` FROM `category` limit 6; ";
-                            $result = mysqli_query($conn, $sql);
-                            while($row = mysqli_fetch_assoc($result)){
-                                echo '<li><a class="dropdown-item" href="/php_tutorials/33/threadlist.php?cat_id='. $row["category_id"] .'">'. $row["category_title"] .'</a></li>';
-                            }
+//                             $sql = "SELECT `category_id`, `category_title` FROM `category` limit 6; ";
+//                             $result = mysqli_query($conn, $sql);
+//                             while($row = mysqli_fetch_assoc($result)){
+//                                 echo '<li><a class="dropdown-item" href="/php_tutorials/33/threadlist.php?cat_id='. $row["category_id"] .'">'. $row["category_title"] .'</a></li>';
+//                             }
                         ?>
                     </ul>
                 </li>
