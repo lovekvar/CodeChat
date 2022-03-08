@@ -30,8 +30,10 @@
             $comment = $_POST["comment"];
             $comment = str_replace("<", "&lt;", $comment);
             $comment = str_replace(">", "&gt;", $comment);
+            date_default_timezone_set('Asia/Kolkata');
+            $time = date("Y-m-d H:i:s");
 
-            $sql = "INSERT INTO `comment` (`user_id`, `comment_thread_id`, `comment_description`, `timestamp`) VALUES ('$user_id', '$thr_id', '$comment', current_timestamp());" ;
+            $sql = "INSERT INTO `comment` (`user_id`, `comment_thread_id`, `comment_description`, `timestamp`) VALUES ('$user_id', '$thr_id', '$comment', '$time';" ;
             $result = mysqli_query($conn, $sql);
 
             if($result){
