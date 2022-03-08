@@ -28,11 +28,17 @@
             $prob_title = $_POST["prob_title"];
             $prob_title = str_replace("<", "&lt;", $prob_title);
             $prob_title = str_replace(">", "&gt;", $prob_title);
+            $prob_title = str_replace("'", "&apos;", $prob_title);
+            $prob_title = str_replace('"', "&quot;", $prob_title);
             $prob_desc = $_POST["prob_desc"];
             $prob_desc = str_replace("<", "&lt;", $prob_desc);
             $prob_desc = str_replace(">", "&gt;", $prob_desc);
+            $prob_desc = str_replace("'", "&apos;", $prob_desc);
+            $prob_desc = str_replace('"', "&quot;", $prob_desc);
+            date_default_timezone_set('Asia/Kolkata');
+            $time = date("Y-m-d H:i:s");
 
-            $sql = "INSERT INTO `thread` (`thread title`, `thread description`, `thread category id`, `thread user id`, `timestamp`) VALUES ('$prob_title', '$prob_desc', '$cat_id', '$user_id', current_timestamp()); ";
+            $sql = "INSERT INTO `thread` (`thread title`, `thread description`, `thread category id`, `thread user id`, `timestamp`) VALUES ('$prob_title', '$prob_desc', '$cat_id', '$user_id', '$time'); ";
             $result = mysqli_query($conn, $sql);
 
             if($result){
