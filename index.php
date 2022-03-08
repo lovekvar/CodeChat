@@ -22,7 +22,7 @@
                 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Best-Programming-Languages-to-Start-Learning-Today.jpg" style= "height: 60vh" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="img/machine-learning-banner-web-icon-260nw-1110900704.jpg" style= "height: 60vh" class="d-block w-100" alt="...">
+                <img src="/img/machine-learning-banner-web-icon-260nw-1110900704.jpg" style= "height: 60vh" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="https://www.monocubed.com/wp-content/uploads/2021/03/7-Phases-of-web-development-life-cycle.jpg" style= "height: 60vh" class="d-block w-100" alt="...">
