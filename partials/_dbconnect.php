@@ -3,7 +3,7 @@
     $servername = "sql6.freemysqlhosting.net";
     $username = "sql6477370";
     $password = "I5MVayTvbF";
-    $database = "I5MVayTvbF";
+    $database = "sql6477370";
 
     // Create a connection
     $conn = mysqli_connect($servername, $username, $password, $database);
