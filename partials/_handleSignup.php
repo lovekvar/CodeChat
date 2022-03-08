@@ -31,7 +31,7 @@
         }
     }
     // echo $error;
-    header("location: ../welcome.php?success=$is_success&error= $error");
+    header("location: ../index.php?success=$is_success&error= $error");
     // Note: Do not leave spaces in 'address' while redirecting someone. Otherwise things will change.
     // e.g. : true ->1 will become ' 1 '. This will lead to misexecution.
 ?>
