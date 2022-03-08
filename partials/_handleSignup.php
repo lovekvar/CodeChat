@@ -17,8 +17,10 @@
                 $error = 'Passwords do not match. Please try to signup again using same passwords.';
             }
             else{
+                date_default_timezone_set('Asia/Kolkata');
+                $time = date("Y-m-d H:i:s");
                 $user_hash = password_hash($pass,  PASSWORD_DEFAULT);
-                $sql = "INSERT INTO `user` (`user_mail`, `user_hash`) VALUES ('$user_mail', '$user_hash');" ;
+                $sql = "INSERT INTO `user` (`user_mail`, `user_hash`, `time`) VALUES ('$user_mail', '$user_hash', '$time');" ;
                 $result = mysqli_query($conn, $sql);
                 if(!$result){
                     $error = 'Due to some technical reasons, We are unable to process your request at this moment. We regret the inconvinience caused! ';
