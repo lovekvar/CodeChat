@@ -5,5 +5,5 @@
     session_destroy();
     
     $message = 'You have successfully logged out of our website';
-    header("location: ../welcome.php?success=true&error=$message");
+    header("location: ../index.php?success=true&error=$message");
 ?>
