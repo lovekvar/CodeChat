@@ -54,7 +54,7 @@
                     $cat_id = $row["category_id"];
                     echo '<div class="col-md-4">
                         <div class="card my-2" style="width: 15rem;">
-                            <img src="img/IMSL What is Regression Model Blog Feature.webp" style="width: 15rem; height: 12rem;" class="card-img-top" alt="Related image">
+                            <img src="img/IMSL What is Regression Model Blog Feature.webp.jpg" style="width: 15rem; height: 12rem;" class="card-img-top" alt="Related image">
                             <div class="card-body">
                             <h5 class="card-title">'. $cat_tit .'</h5>
                             <p class="card-text">'. substr($cat_desc,0,100) .'...</p>
