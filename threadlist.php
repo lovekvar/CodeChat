@@ -38,7 +38,7 @@
             date_default_timezone_set('Asia/Kolkata');
             $time = date("Y-m-d H:i:s");
 
-            $sql = "INSERT INTO `thread` (`thread title`, `thread description`, `thread category id`, `thread user id`, `timestamp`) VALUES ('$prob_title', '$prob_desc', '$cat_id', '$user_id', '$time'); ";
+            $sql = "INSERT INTO `thread` (`thread title`, `thread description`, `thread category id`, `thread user id`, `timestamp`) VALUES ('$prob_title', '$prob_desc', '$cat_id', '$user_id', '2021-12-28 21:13:24'); ";
             $result = mysqli_query($conn, $sql);
 
             if($result){
