@@ -42,6 +42,7 @@
             $sql = "INSERT INTO `thread` (`thread title`, `thread description`, `thread category id`, `thread user id`, `timestamp`) VALUES ('$prob_title', '$prob_desc', '$cat_id', '$user_id', '$time'); ";
             echo $time;
             $result = mysqli_query($conn, $sql);
+            echo $result . '<br>';
             echo mysqli_error($conn);
             exit();
 
